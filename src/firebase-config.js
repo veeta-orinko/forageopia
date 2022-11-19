@@ -4,7 +4,7 @@ import { getFirestore } from '@firebase/firestore'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBT93w-gACdg8S0ELQrN3rhXdLe6yWfhsA',
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: 'forageopedia.firebaseapp.com',
   projectId: 'forageopedia',
   storageBucket: 'forageopedia.appspot.com',
